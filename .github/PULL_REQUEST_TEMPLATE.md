@@ -1,0 +1,3 @@
+- [ ] `npx skills add . --list` shows every skill
+- [ ] Any new number has a source in `data/launch-stats.md`
+- [ ] No marketing voice, no growth hacks that break platform rules
