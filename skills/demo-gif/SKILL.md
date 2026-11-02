@@ -43,7 +43,7 @@ Hide
 Type "clear" Enter
 Show
 
-Type "npx skills add OWNER/launch-skills"
+Type "npx skills add karix-ai/launch-skills"
 Sleep 600ms
 Enter
 Sleep 2.5s

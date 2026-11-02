@@ -9,7 +9,7 @@ Works with Claude Code, Cursor, Codex, Copilot, OpenCode and any agent that read
 ## Install
 
 ```bash
-npx skills add OWNER/launch-skills
+npx skills add karix-ai/launch-skills
 ```
 
 Then, inside your project:
