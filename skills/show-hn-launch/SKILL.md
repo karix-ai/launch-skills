@@ -9,6 +9,15 @@ Hacker News is the single largest star engine for developer tools. It is also br
 the median Show HN scores 2 points, and a post that reaches 50 points is in the top 6%.
 The difference between 2 and 50 is mostly the title, the first comment, and the hour.
 
+## First: can this account post a Show HN?
+
+Check this days before launch, not at the moment you press submit.
+
+- **HN restricts Show HN from new accounts when there is an influx of them.** Seen in November 2026: a 2-day-old account got an "Update re Show HNs" page instead of a submission. The restriction is announced on that page, not in advance, and HN does not publish a karma or age threshold.
+- **The fix is participation, not workarounds.** Comment where you have something real to add, for a week or more, before the launch. A second account, resubmitting the repo as a plain link to dodge the Show HN rule, or asking someone else to post it all burn the account and the project.
+- **If the account is new, ask early.** A short, polite email to hn@ycombinator.com a few days ahead ("new account, planning a Show HN of <repo>, anything you'd like to see first?") gets a human answer. Send it from the email on the HN profile.
+- **Have a Plan B for the date.** If HN is closed to the account, do not spend the launch on X and Reddit alone: that spreads stars thin and misses Trending. Move the whole launch day.
+
 ## What the data says
 
 Numbers below come from public analyses of HN and GitHub star histories (see `data/launch-stats.md` in this repo for sources).
@@ -72,11 +81,12 @@ Why the limitation line matters: HN's first instinct is to find the flaw. If you
 
 ## Procedure
 
-1. Confirm the README passes the `readme-that-sells` skill and the repo passes `repo-hygiene`. If not, stop; launching early wastes the one shot.
-2. Draft 5 titles, score, pick one. Show the user the scoring.
-3. Write the first comment.
-4. Convert the two posting windows to the user's local time zone and give both as concrete dates.
-5. Produce a launch-hour checklist: post → first comment → share the HN link (not the repo) in the user's own channels → reply loop.
+1. Ask the age and karma of the user's HN account. If it is new or nearly empty, say so plainly, point to the section above, and plan participation and the email to hn@ before picking a date.
+2. Confirm the README passes the `readme-that-sells` skill and the repo passes `repo-hygiene`. If not, stop; launching early wastes the one shot.
+3. Draft 5 titles, score, pick one. Show the user the scoring.
+4. Write the first comment.
+5. Convert the two posting windows to the user's local time zone and give both as concrete dates.
+6. Produce a launch-hour checklist: post → first comment → share the HN link (not the repo) in the user's own channels → reply loop.
 
 ## Output
 

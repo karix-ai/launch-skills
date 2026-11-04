@@ -54,6 +54,7 @@ changes whether a visitor stars the repo.
 - **> 75:** launch. Remaining points are polish; ship and fix during day 1.
 
 A 90 with no demo is still a no-go: the demo is a hard requirement, not a point item.
+So is an account that can post: if the HN account is new or HN shows a Show HN restriction for it, the verdict is "not yet" whatever the score (see `show-hn-launch`).
 
 ## Procedure
 

@@ -15,7 +15,7 @@ second wave.
 
 | Channel | Expected effect | Account needed | Notes |
 |---|---|---|---|
-| Hacker News (Show HN) | 100–2,000 stars if it lands; 0 if not | Any age works | See `show-hn-launch`. The whole plan is built around this. |
+| Hacker News (Show HN) | 100–2,000 stars if it lands; 0 if not | An account with some history. HN restricts Show HN from new accounts at times; check days ahead | See `show-hn-launch`. The whole plan is built around this. |
 | GitHub Trending | 50–500/day while listed | – | A consequence of the HN spike, not a channel you post to. Pick the right primary language and topics (`repo-hygiene`). |
 | Reddit (1–3 subreddits) | 20–200 | Account with some karma; new accounts are often auto-removed | See `reddit-launch`. |
 | X / Twitter | 10–500 | Depends entirely on who reshares | One thread with the GIF; tag 2–3 people whose tools you integrate with, not influencers. |
@@ -30,6 +30,10 @@ second wave.
 ## The 7-day schedule
 
 Day 0 is the launch day. Count backwards for prep and forwards for the second wave.
+
+**Day −14 to −4: make sure you can post.**
+- HN and Reddit accounts exist and have a real history: a week or more of useful comments, some karma. New accounts get Show HN blocked on HN and posts auto-removed on Reddit.
+- If the HN account is new, email hn@ycombinator.com and ask before the date (see `show-hn-launch`).
 
 **Day −3 to −1: build the asset.**
 - README passes `readme-that-sells`. Demo GIF exists (`demo-gif`).
@@ -70,6 +74,7 @@ Day 0 is the launch day. Count backwards for prep and forwards for the second wa
 - **The HN thread is the hub.** Every other channel links to the thread on Day 0, because HN ranking responds to engagement on the thread and the thread sends people to the repo. Reddit is the exception: it links to the repo, because Reddit penalizes HN links.
 - **Ship v0.1.0 before launch, v0.1.1 within 24 h.** A fast second release tells visitors the project is alive.
 - **Never buy stars, never vote-ring, never fake comments.** GitHub removes purchased stars and HN kills vote-ringed posts; both are detectable and both are permanent reputation damage.
+- **Check access before the date, not on it.** If HN is closed to the account on launch day, move the whole launch; do not fire the other channels alone.
 - **Time zone math is done twice.** Convert the slot to local time, then convert back to check. A missed slot is a missed week.
 
 ## Procedure
