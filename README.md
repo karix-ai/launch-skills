@@ -1,6 +1,6 @@
 # launch-skills
 
-Agent skills that launch your open-source repo: README, demo, Show HN, Reddit, Trending — backed by data from 188,000 HN posts.
+Agent skills that launch your open-source repo: README, demo, Show HN, Reddit, Trending. Backed by data from 188,000 Show HN posts.
 
 ![demo](demo.gif)
 
@@ -24,7 +24,7 @@ The agent loads the matching skill and does the work. Install one skill only wit
 
 ## Why
 
-Most good repos get 10 stars. Not because the code is bad — because the README starts with a paragraph of history, there is no demo, the Show HN goes up at 3 pm on a Friday with a title that says "blazing fast", and nobody answers the first comment.
+Most good repos get 10 stars. Not because the code is bad, but because the README starts with a paragraph of history, there is no demo, the Show HN goes up at 3 pm on a Friday with a title that says "blazing fast", and nobody answers the first comment.
 
 The fixes are known. They are just spread across a hundred blog posts and a few people's heads. These skills put them in your agent so the right thing happens by default:
 
@@ -42,7 +42,7 @@ Sources and the full numbers: [data/launch-stats.md](data/launch-stats.md).
 | `launch-audit` | Scores launch readiness 0–100, lists blockers. **Run this first.** |
 | `readme-that-sells` | Rewrites the README to pass the 15-second test: pitch, demo, one-command install, honest "why". |
 | `demo-gif` | Produces the demo GIF/MP4 (VHS tape for terminal tools) sized for README and social. |
-| `repo-hygiene` | Description, topics, license, release, social preview, good-first-issues — via `gh`. |
+| `repo-hygiene` | Description, topics, license, release, social preview, good-first-issues, all via `gh`. |
 | `show-hn-launch` | Five scored titles, the first comment, the posting slot in your time zone. |
 | `reddit-launch` | Picks 1–3 subreddits, checks their rules, writes a post for each. |
 | `launch-plan` | The 7-day schedule that concentrates everything into one day to hit Trending. |
@@ -62,7 +62,7 @@ First comment:
 Hi HN, I'm …
 <limitation line> It doesn't run JavaScript-heavy SPAs yet; that's the next milestone.
 
-Post at: Mon 2026-11-09 00:00 UTC = Sun 2026-11-08 19:00 America/New_York = Mon 02:00 Europe/Kyiv
+Post at: Mon 2026-11-09 00:00 UTC = Sun 2026-11-08 19:00 America/New_York = Mon 01:00 Europe/Berlin
 Checklist: submit → first comment within 60 s → share the HN link (not the repo) → reply loop for 3 h
 ```
 
